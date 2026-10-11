@@ -8,7 +8,7 @@ Final render of the Artemis II rocket launch, created with Blender Cycles.
 
 # Project Website
 
-This link leads to my project website, where I placed an interactive model of my scene:https://javinwittig.github.io/artemis-2-launch-3d/
+This link leads to my project website, where I placed an interactive model of my scene: https://javinwittig.github.io/artemis-2-launch-3d/
 # About
 
 
