@@ -19,7 +19,7 @@ This project recreates the launch of the Artemis II mission modeled in blender
 
 Modeling, simulation and rendering	 was made in Blender (Cycles).
 
-The Web was made with Three.js
+The Website was made with Three.js
  
  
  
