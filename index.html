@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artemis 2 Rocket Launch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <main>
+    <section id="viewer" aria-label="3D view of the SLS rocket on the launch pad">
+      <div id="canvas-container"></div>
+      <p id="viewer-hint" class="hint" aria-hidden="true">Drag: rotate · Scroll: zoom · Right-click: pan</p>
+      <p id="loading" class="loading" aria-live="polite">Loading …</p>
+    </section>
+
+    <section id="info" aria-label="Project information">
+      <figure class="render-figure">
+        <img src="renders/Blender_Render.png" alt="Rendered image of the SLS rocket on the launch pad, created in Blender" />
+        <figcaption>My final render of the Artemis II Rocket Launch</figcaption>
+      </figure>
+
+      <div class="text-content">
+        <h1>Artemis 2 Rocket Launch</h1>
+
+        <p>I modeled the launch of the Artemis II rocket in Blender. To showcase the scene, I created this 3D website using Three.js. Due to technical limitations, I couldn't showcase the fire and smoke simulations but the image on the left shows my final render created with Blender Cycles.</p>
+
+        <table class="specs" aria-label="Technical specifications">
+          <tbody>
+            <tr>
+              <th>Software</th>
+              <td>Blender</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="viewer.js"></script>
+</body>
+</html>
