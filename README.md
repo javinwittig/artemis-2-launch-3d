@@ -3,7 +3,7 @@
 I modeled the launch of the artemis II reockt in blender 
 
  <img src="renders/Blender_Render.png" alt="Confusion Matrix" width="500">
-  <img src="renders/Blender_render.png" alt="Confusion Matrix" width="500">
+  <img src="renders/Blender_render.jpeg" alt="Confusion Matrix" width="500">
 Final render of the Artemis II rocket launch, created with Blender Cycles.
 
 
